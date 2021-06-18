@@ -101,3 +101,68 @@ body {
     text-transform: uppercase;
     padding: 15px 60px;
 }
+
+.title-motivation {
+    margin-top: 40px;
+    font-weight: lighter;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    align-items: center;
+}
+
+.task-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 40px;
+    padding-bottom: 15px;
+}
+
+.task-image {
+    padding: 5px;
+}
+
+.task-add {
+    border: whitesmoke 2px dashed;
+    padding: 20px 40px;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c94b47;
+    opacity: 0.6;
+}
+
+.task-add:hover {
+    opacity: 0.9;
+}
+
+.task-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.task-text button {
+    background-color: rgb(213, 116, 112);
+    border-radius: 5px;
+    border: none;
+}
+
+.task-add-image {
+    margin-right: 5px;
+    opacity: 0.8;
+}
+
+.task-add-text {
+    font-weight: bold;
+    opacity: 0.8;
+}
