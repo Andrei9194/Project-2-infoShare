@@ -59,3 +59,45 @@ body {
 .button-text {
     margin-left: 3px;
 }
+
+.main-stoper {
+    margin-top: 20px;
+    min-width: 450px;
+    min-height: 280px;
+    background-color: #df645f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #df645f;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button:focus {
+    background-color: #be5551;
+    font-weight: bold;
+}
+
+.stoper-time {
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.stoper-start-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(219, 82, 77);
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 15px 60px;
+}
